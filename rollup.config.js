@@ -23,7 +23,9 @@ export default {
     styles(),
     image(),
     serve({
-      open: true
+      open: true,
+      contentBase: './', // базовая директория
+      port: 8000,
     }),
     livereload(),
   ],

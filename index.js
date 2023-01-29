@@ -12,5 +12,6 @@ const mainTitle = document.createElement("h1");
 mainTitle.textContent = "I love JavaScript";
 
 const img = document.createElement("img");
+img.className = 'js-image'
 img.src = js_logo;
 document.body.append(mainTitle, img);

@@ -7,7 +7,7 @@ npm install
 
 ### 1. Инициализация проекта
 
-1. install dependencies
+1. install rollup
 ```bash
 npm install --global rollup
 ```
